@@ -17,7 +17,7 @@
 # It does not matter what you leave beyond the returned k (hence they are underscores).
 
 
-# class Solution:
+class Solution:
     def removeElement(self, nums, val):
         index = 0
         for i in range(len(nums)):
